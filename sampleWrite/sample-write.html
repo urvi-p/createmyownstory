@@ -1,0 +1,65 @@
+<!-- Creatica 2020 project! -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Create Your Own Story!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="sample-write.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="sample-write.js" defer></script>
+  </head>
+  <body>
+    <!-- create border -->
+    <div id="left"></div>
+    <div id="right"></div>
+    <div id="top"></div>
+    <div id="bottom"></div>
+
+    <!-- display headings -->
+    <h1>Create Your Own Story!</h1>
+    <h1>Level 1</h1>
+    <h2>
+      You have just five dollars to your name, and you decide to spend it on
+      lunch at your favourite fast food joint. Just as you’re about to pay, a
+      boy not much older than you leans in and whispers to you, “Hold onto your
+      money. I’ll show you how to turn that five dollars into five grand.”
+    </h2>
+
+    <h3>Continue the story in Path 1 or Path 2</h3>
+    <h3 id="arrow">&darr; &darr;</h3>
+    <!-- create the textbox & button, and prints the input-->
+
+    <div class="pathButtons">
+      <!-- text input 1 -->
+      <div class="container">
+        <input type="text" id="text1" />
+
+        <button id="path1" class="button" onclick="path1()">
+          Submit to Path 1
+        </button>
+
+        <!-- text input 2 -->
+        <input type="text" id="text2" />
+
+        <button id="path2" class="button" onclick="path2()">
+          Submit to Path 2
+        </button>
+      </div>
+      
+      <p id="space1"></p>
+      <p id="space2"></p>
+    </div>
+
+    <button id="nextPage" class="button">
+      Go to Next Level!
+    </button>
+    
+  </body>
+</html>

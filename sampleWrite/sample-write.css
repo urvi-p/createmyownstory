@@ -1,0 +1,110 @@
+/* CSS files add styling rules to your content */
+body {
+  background-color: #216293;
+  color: #fff;
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+h1 {
+  line-height: 44px;
+  padding: 10px 80px 10px 80px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+h2 {
+  line-height: 23px;
+  padding: 10px 80px 10px 80px;
+  text-align: center;
+}
+
+h3 {
+  font-family: helvetica, arial, sans-serif;
+  /*margin: 2em;*/
+  text-align: center;
+}
+
+p {
+  color: #fff;
+  padding: 10px 25px 10px 25px;
+  font-size: 1.5em;
+  text-align: center;
+}
+#arrow {
+  color: #fff;
+  font-size: 1.875em;
+  /*padding: 1px 5px 1px 5px;*/
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 30%;
+  height: 70px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+
+#left,
+#right {
+  border: 5px solid rgb(255, 255, 255);
+  position: fixed;
+}
+#left,
+#right {
+  top: 0;
+  bottom: 0;
+  width: 15px;
+}
+#left {
+  left: 0;
+}
+#right {
+  right: 0;
+}
+
+
+.pathButtons {
+  text-align: center;
+}
+
+.button {
+  background-color: #216293;
+  border: 2px solid #ffffff;
+  transition-duration: 0.4s;
+  color: #fff;
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 14px 4px 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #fff;
+  color: #216293;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#nextPage {
+  float: left;
+  margin: 2px;
+  padding: 10px;
+  min-width: 117px;
+
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
