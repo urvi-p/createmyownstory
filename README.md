@@ -1,4 +1,4 @@
-# createmyownstory
+# MakeMyOwnStory
 A website to allow users to read interactive/choose-your-path stories, and add paths to existing stories.
 
 Collaborators: Urvi Patel, Annette Antony, Hazel Nguyen, Katie Min
